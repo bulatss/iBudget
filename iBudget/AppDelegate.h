@@ -2,16 +2,26 @@
 //  AppDelegate.h
 //  iBudget
 //
-//  Created by Bulat Saifutdinov on 9/30/16.
+//  Created by Bulat Saifutdinov on 10/4/16.
 //  Copyright © 2016 Bulat Saifutdinov. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreData/CoreData.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (readonly, strong) NSPersistentContainer *persistentContainer;
+
+@property(readonly,strong,nonatomic)NSManagedObjectContext *managedObjectContext;
+@property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
+@property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
+
+
+- (void)saveContext;
+- (NSURL *)applicationDocumentsDirectory;
 
 @end
 

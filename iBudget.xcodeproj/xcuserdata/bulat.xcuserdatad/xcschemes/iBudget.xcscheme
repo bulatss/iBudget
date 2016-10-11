@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9EB1D9D31D9EDB75002C257C"
+               BlueprintIdentifier = "9EB1DB8F1DA3B0DE002C257C"
                BuildableName = "iBudget.app"
                BlueprintName = "iBudget"
                ReferencedContainer = "container:iBudget.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9EB1D9D31D9EDB75002C257C"
+            BlueprintIdentifier = "9EB1DB8F1DA3B0DE002C257C"
             BuildableName = "iBudget.app"
             BlueprintName = "iBudget"
             ReferencedContainer = "container:iBudget.xcodeproj">
@@ -55,12 +55,18 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9EB1D9D31D9EDB75002C257C"
+            BlueprintIdentifier = "9EB1DB8F1DA3B0DE002C257C"
             BuildableName = "iBudget.app"
             BlueprintName = "iBudget"
             ReferencedContainer = "container:iBudget.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "com.apple.CoreData.SQLDebug 1"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -74,7 +80,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9EB1D9D31D9EDB75002C257C"
+            BlueprintIdentifier = "9EB1DB8F1DA3B0DE002C257C"
             BuildableName = "iBudget.app"
             BlueprintName = "iBudget"
             ReferencedContainer = "container:iBudget.xcodeproj">
